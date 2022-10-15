@@ -11,12 +11,26 @@ public class MainAct extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.act_main);
 
         findViewById(R.id.tvBitmap).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(MainAct.this,BitmapAct.class));
+            }
+        });
+
+        findViewById(R.id.tvNinePatch).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainAct.this,NinePatchAct.class));
+            }
+        });
+
+        findViewById(R.id.tvVector).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainAct.this,VectorAct.class));
             }
         });
 

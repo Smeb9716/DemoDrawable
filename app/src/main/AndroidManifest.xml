@@ -21,6 +21,12 @@
 
         <activity android:name=".BitmapAct"
             android:exported="true"/>
+
+        <activity android:name=".NinePatchAct"
+            android:exported="true"/>
+
+        <activity android:name=".VectorAct"
+            android:exported="true"/>
     </application>
 
 </manifest>

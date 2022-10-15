@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainAct"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvBitmap"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="@color/teal_200"
+        android:text="BimapDrawable"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvNinePatch"
+        android:layout_marginTop="20dp"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_green_light"
+        android:text="NinePatchDrawable"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvVector"
+        android:layout_marginTop="20dp"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_red_light"
+        android:text="VectorDrawable"
+        android:gravity="center"
+        android:textSize="17dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
