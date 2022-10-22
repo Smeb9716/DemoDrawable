@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">DemoDrawable</string>
     <string name="abc">Details for the 19th edtion of the open, that will take on Sunday 13th November.  On Sunday 13th November the Rack N Roll will host its 18th Annual 9 Ball Open tournament.</string>
+    <string name="cadena_corta">Cadena Corta</string>
+    <string name="cadena_larga">Cadena bastante más larga que ocupe más espaciofhfgjhfhjgkhjfgh</string>
 </resources>
