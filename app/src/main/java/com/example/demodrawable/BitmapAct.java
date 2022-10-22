@@ -17,9 +17,8 @@ public class BitmapAct extends AppCompatActivity {
 
         ImageView imvDrawable = findViewById(R.id.imvDrawable);
 
-
         Resources resources = getResources();
-        Drawable drawable = ResourcesCompat.getDrawable(resources,R.drawable.image_gif,null);
+        Drawable drawable = ResourcesCompat.getDrawable(resources,R.drawable.image_eat_rice,null);
         imvDrawable.setImageDrawable(drawable);
     }
 }
