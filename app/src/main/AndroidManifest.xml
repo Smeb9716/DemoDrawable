@@ -19,14 +19,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".BitmapAct"
+        <activity android:name=".BitmapDrawableAct"
             android:exported="true"/>
 
-        <activity android:name=".NinePatchAct"
+        <activity android:name=".NinePatchDrawableAct"
             android:exported="true"/>
 
-        <activity android:name=".VectorAct"
+        <activity android:name=".VectorDrawableAct"
             android:exported="true"/>
+
+        <activity android:name=".ShapeDrawableAct"
+            android:exported="true"/>
+
     </application>
 
 </manifest>

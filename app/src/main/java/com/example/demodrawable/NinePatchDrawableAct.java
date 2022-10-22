@@ -7,7 +7,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class NinePatchAct extends AppCompatActivity {
+public class NinePatchDrawableAct extends AppCompatActivity {
     private String str;
 
     @Override

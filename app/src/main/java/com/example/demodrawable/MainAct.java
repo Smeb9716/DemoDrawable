@@ -16,21 +16,28 @@ public class MainAct extends AppCompatActivity {
         findViewById(R.id.tvBitmap).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainAct.this,BitmapAct.class));
+                startActivity(new Intent(MainAct.this, BitmapDrawableAct.class));
             }
         });
 
         findViewById(R.id.tvNinePatch).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainAct.this,NinePatchAct.class));
+                startActivity(new Intent(MainAct.this, NinePatchDrawableAct.class));
             }
         });
 
         findViewById(R.id.tvVector).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainAct.this,VectorAct.class));
+                startActivity(new Intent(MainAct.this, VectorDrawableAct.class));
+            }
+        });
+
+        findViewById(R.id.tvShape).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainAct.this,ShapeDrawableAct.class));
             }
         });
 
