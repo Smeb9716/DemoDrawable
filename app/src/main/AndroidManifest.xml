@@ -31,6 +31,9 @@
         <activity android:name=".ShapeDrawableAct"
             android:exported="true"/>
 
+        <activity android:name=".LayerListDrawableAct"
+            android:exported="true"/>
+
     </application>
 
 </manifest>

@@ -41,5 +41,12 @@ public class MainAct extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.tvLayerList).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainAct.this,LayerListDrawableAct.class));
+            }
+        });
+
     }
 }
